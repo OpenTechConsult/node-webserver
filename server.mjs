@@ -3,7 +3,7 @@ import { createServer } from 'http';
 const server = createServer((req, res) => {
     res.writeHead(200, {'content-type': 'text/html; charset-utf8'});
     const body = `<!DOCTYPE html>
-    <html>
+    <html lang="en">
         <head>
         <meta charset="utf-8">
         <title>Node.js Demo</title>
