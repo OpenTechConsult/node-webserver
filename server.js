@@ -22,6 +22,22 @@
 // });
 
 // Loading the module and extracting certain functions by the means of destructuring.
-const { uptime } = require('os');
-console.log(uptime())
+// const { uptime } = require('os');
+// console.log(uptime())
+
+// Destructuring
+const person = {
+    name: 'Lisa',
+    age: 32
+};
+
+const {name, age } = person;
+console.log('Name: ', name); // output: Name: Lisa
+console.log('Age: ', age); // Output: Age: 32
+
+const person2 = ['John', 17];
+const [name2, age2] = person2;
+console.log('Name: ', name2); // output: Name: Lisa
+console.log('Age: ', age2); // Output: Age: 32
+
 
