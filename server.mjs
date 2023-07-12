@@ -42,7 +42,8 @@
 
 // loading core modules via the ECMAScript Module System
 // how to use the default export of the core
-import os from 'os';
-console.log(os.uptime());
+import { uptime } from 'os';
+
+console.log(uptime());
 
 
