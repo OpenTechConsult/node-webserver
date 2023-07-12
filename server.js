@@ -1,8 +1,6 @@
-import { dirname } from 'path';
-import { fileURLToPath } from 'url';
+import { readFile } from 'fs';
 
-const __filename = fileURLToPath(import.meta.url);
-const __dirname = dirname(__filename);
-
-console.log(__filename);
-console.log(__dirname);
+readFile('input.txt', (err, data) => {
+    console.log(data);
+    console.log(data.toString());
+})
