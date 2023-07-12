@@ -21,7 +21,7 @@
 //     console.log(`Server is listening to http://localhost:${server.address().port}`);
 // });
 
-// Loading the entire module
-const os = require('os');
-console.log(os.uptime())
+// Loading the module and extracting certain functions by the means of destructuring.
+const { uptime } = require('os');
+console.log(uptime())
 
