@@ -26,18 +26,23 @@
 // console.log(uptime())
 
 // Destructuring
-const person = {
-    name: 'Lisa',
-    age: 32
-};
+// const person = {
+//     name: 'Lisa',
+//     age: 32
+// };
+//
+// const {name, age } = person;
+// console.log('Name: ', name); // output: Name: Lisa
+// console.log('Age: ', age); // Output: Age: 32
+//
+// const person2 = ['John', 17];
+// const [name2, age2] = person2;
+// console.log('Name: ', name2); // output: Name: Lisa
+// console.log('Age: ', age2); // Output: Age: 32
 
-const {name, age } = person;
-console.log('Name: ', name); // output: Name: Lisa
-console.log('Age: ', age); // Output: Age: 32
-
-const person2 = ['John', 17];
-const [name2, age2] = person2;
-console.log('Name: ', name2); // output: Name: Lisa
-console.log('Age: ', age2); // Output: Age: 32
+// loading core modules via the ECMAScript Module System
+// how to use the default export of the core
+import os from 'os';
+console.log(os.uptime());
 
 
